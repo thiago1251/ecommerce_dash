@@ -4,7 +4,6 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import plotly.express as px
 from db_connection import load_table
-
 dash.register_page(__name__, path="/conversiones", name="Conversiones")
 
 def layout():
