@@ -37,7 +37,6 @@ navbar = dbc.Navbar(
                     dbc.NavItem(dbc.NavLink("Patrones", href="/patrones")),
                     dbc.NavItem(dbc.NavLink("Usuarios", href="/usuarios")),
                     dbc.NavItem(dbc.NavLink("CLV", href="/clv")),
-                    dbc.NavItem(dbc.NavLink("RFM", href="/rfm")),
                 ],
                 pills=True,
                 navbar=True,
